@@ -2586,6 +2586,10 @@
 	#footer {
 		padding: 2em 0 1em 0;
 	}
+	
+	#footer img{
+				max-height: 80px;
+			}
 
 		#footer a {
 			color: inherit;
@@ -2703,6 +2707,10 @@
 				#footer .container {
 					margin-bottom: 1em;
 				}
+				
+			#footer img{
+				height: 80px;
+			}
 
 	}
 
@@ -2825,6 +2833,10 @@
 				#footer .container {
 					margin-bottom: 4em;
 				}
+				
+			#footer img{
+				height: 60px;
+			}
 
 		/* Off-Canvas Navigation */
 
@@ -3156,6 +3168,10 @@
 			#footer {
 				padding: 10px;
 				text-align: left;
+			}
+			
+			#footer img{
+				height: 40px;
 			}
 
 	}
