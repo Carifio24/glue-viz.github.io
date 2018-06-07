@@ -16,7 +16,7 @@
 			gtag('config', 'UA-76450307-1');
 		</script>
 
-		<title>Installing Glue</title>
+		<title>Glue Plugins</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="icon" href="favicon.ico">
@@ -38,11 +38,11 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li class="current"><a href="install.html">Install</a></li>
+								<li ><a href="install.html">Install</a></li>
 								<li><a href="http://docs.glueviz.org" target="_blank">Documentation</a></li>
 								<li><a href="team.html">Team</a></li>
 								<li><a href="get_involved.html">Get involved</a></li>
-								<li><a href="plugins.html">Plugins</a></li>
+								<li class="current"><a href="plugins.html">Plugins</a></li>
 							</ul>
 						</nav>
 
@@ -57,46 +57,35 @@
 
 								<article>
 									<header>
-										<h2>Installing Glue</h2>
+										<h2>Glue Plugins</h2>
 									</header>
 
-									<h3>Using the Anaconda Python Distribution</h3>
+<p></p>
+						
+<p>Glue is designed to make it easy to customize various aspects via plugins, including customized data viewers on top of the standard ones, readers/writers for new file formats, and more. Developers are building glue plugins for a variety of fields from astronomy to medicine. The items below are currently available on the <a href="https://github.com/glue-viz" target="_blank">GitHub</a> repository and most include instructions and sample data on how to install and use.</p>
 
-									<p>We recommend using the
-                  <a href="http://continuum.io/downloads.html">Anaconda Python
-                  Distribution</a> from Continuum Analytics, which makes it
-                  easy to install Glue on MacOS X, Linux, and Windows. Once
-                  Anaconda is installed, you can install Glue from the
-									command-line/terminal by typing:
-									</p>
-									<p>
-										<code>
-											conda install -c glueviz glueviz
-										</code>
-									</p>
-									<h3>Other installation options</h3>
-									<p>
-										For more installation options, please take a look at the
-										<a href="http://glueviz.readthedocs.io/en/stable/installation/installation.html">
-											Installing and running glue</a> section of the documentation.
-										</p>
-										<h3>Starting up glue</h3>
-										<p>
-											To start up glue from the command-line/terminal, type:
-										</p>
-										<p>
-											<code>
-												glue
-											</code>
-										</p>
-										<p>
-											on the command-line. If you run into any issues, you can
-											<a href="https://github.com/glue-viz/glue/issues/new">open
-											a ticket</a> in our GitHub repository or email us at <a
-											href="mailto:glue.viz@gmail.com">glue.viz@gmail.com</a>.
-										</p>
+<h3>Plugins</h3>
 
-								</article>
+<ul>
+<li><a href="https://github.com/glue-viz/glue-aladin" target="_blank">glue-aladin</a>, Aladin Lite in glue </li>
+<li><a href="https://github.com/glue-viz/example_data_viewers" target="_blank">example_data_viewers</a>, A collection of user-defined Glue data viewers including basketball shots, earthquakes, and Mario</li>
+<li><a href="https://github.com/glue-viz/glue-geospatial" target="_blank">glue-geospatial</a>, Experimental plugin to support satellite imagery</li>
+<li><a href="https://github.com/glue-viz/glue-h5part" target="_blank">glue-h5part</a>, Experimental plugin to deal with h5part data</li>
+<li><a href="https://github.com/glue-viz/glue-jupyter" target="_blank">glue-jupyter</a>, Jupyter interface for Glue</li>
+<li><a href="https://github.com/glue-viz/glue-medical" target="_blank">glue-medical</a>, Experimental Glue medical plugin</li>
+<li><a href="https://github.com/glue-viz/glue-samp" target="_blank">glue-samp</a>, Experimental Glue SAMP plugin</a></li>
+<li><a href="https://github.com/glue-viz/glue-specviz" target="_blank">glue-specviz</a>, Experimental plugin to wrap the STScI specviz tool</li>
+<li><a href="https://github.com/glue-viz/glue-vispy-viewers">glue-vispy-viewers</a>, Glue plugin for 3D viewers using VisPy</li>
+<li><a href="https://github.com/glue-viz/glue-wwt" target="_blank">glue-wwt</a>, Experimental Glue WorldWide Telescope plugin</li>
+
+</ul>
+
+
+<p>
+
+For further information on writing, installing, and using glue plugins, please see our <a href="http://docs.glueviz.org/en/stable/customizing_guide/custom_viewer.html" target="_blank">Building Custom Data Viewers</a> or the <a href="https://github.com/glue-viz" target="_blank">glueviz</a> repository on GitHub. 
+</p>
+									
 
 
 						</div>
