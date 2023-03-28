@@ -62,29 +62,33 @@
 										<h2>Installing Glue</h2>
 									</header>
 
-									<h3>Using the Anaconda Python Distribution</h3>
+									<h3>Standalone applications</h3>
 
-									<p>We recommend using the
-                  <a href="http://continuum.io/downloads.html">Anaconda Python
-                  Distribution</a> from Continuum Analytics, which makes it
-                  easy to install Glue on MacOS X, Linux, and Windows. Once
-                  Anaconda is installed, you can install Glue from the
-									command-line/terminal by typing:
-									</p>
-									<p>
-										<code>
-											conda install -c glueviz glueviz
-										</code>
-									</p>
-									<h3>Other installation options</h3>
-									<p>
-										For more installation options, please take a look at the
+									<p>On MacOS X and Windows, the easiest way to get set up with glue is to download and install
+									standalone applications that include everything you need to get started. You can find the
+								instructions at the <a href="http://docs.glueviz.org/en/stable/installation/standalone.html">following page</a>.
+								The main downside of this installation method is that you will not be able to install additional glue plugins,
+								but if you just want to try out glue or if the default functionality available in the applications is enough for you,
+								then it is by far the easiest.
+							</p>
+
+									<h3>As a Python package</h3>
+
+									<p>The other main way to install glue is into an
+									existing Python installation, using e.g., <a
+									href="https://pip.pypa.io/en/stable/">pip</a> or
+									<a href="https://docs.conda.io/en/latest/">conda</a>, or on some Linux distributions by using the
+									built-in package manager. For more information on installation options, please take a look at the
 										<a href="http://glueviz.readthedocs.io/en/stable/installation/installation.html">
 											Installing and running glue</a> section of the documentation.
 										</p>
 										<h3>Starting up glue</h3>
 										<p>
-											To start up glue from the command-line/terminal, type:
+											If you have installed the standalone
+											application, double click on the application
+											to open it. Otherwise, if you have installed
+											glue as a Python package, to start up glue
+											from the command-line/terminal, type:
 										</p>
 										<p>
 											<code>
