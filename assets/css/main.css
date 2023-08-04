@@ -1847,6 +1847,10 @@
 		margin: 0 0 2em 0;
 	}
 
+	p.nomargin {
+		margin: 0 0 0 0;
+	}
+
 	ul.team {
 		margin: -1em 0 1em 2em;
 	}
@@ -2586,7 +2590,7 @@
 	#footer {
 		padding: 2em 0 1em 0;
 	}
-	
+
 	#footer img{
 				max-height: 80px;
 			}
@@ -2707,7 +2711,7 @@
 				#footer .container {
 					margin-bottom: 1em;
 				}
-				
+
 			#footer img{
 				height: 80px;
 			}
@@ -2833,7 +2837,7 @@
 				#footer .container {
 					margin-bottom: 4em;
 				}
-				
+
 			#footer img{
 				height: 60px;
 			}
@@ -3169,7 +3173,7 @@
 				padding: 10px;
 				text-align: left;
 			}
-			
+
 			#footer img{
 				height: 40px;
 			}
